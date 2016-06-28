@@ -1,0 +1,63 @@
+
+.count {
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 4%;
+    min-height: 1px;
+    margin-bottom: 20px;
+}
+
+#countdown.timer {
+    margin: 0 auto;
+    max-width: 530px;
+}
+
+.countdown>div {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    line-height: 180px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.75);
+    font-size: 15px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .2), inset 0 4px 5px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(0, 0, 0, .6);
+    -webkit-border-radius: 30em;
+    -moz-border-radius: 30em;
+    border-radius: 30em;
+}
+
+.countdown>div>span {
+    color: #fff;
+    line-height: 110px;
+    font-size: 50px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.75);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    font-weight: normal;
+}
+
+#coundown_sec span {
+    animation: mymove 1s;
+    -moz-animation: mymove 1s;
+    -webkit-animation: mymove 1s;
+    -o-animation: mymove 1s;
+    -ms-animation: mymove 1s;
+}
