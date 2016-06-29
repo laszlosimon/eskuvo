@@ -1,7 +1,18 @@
+
 body{
   border-spacing:10px;
   font-size:16px
 
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height: 460;
+	width: 345;
+      margin: auto;
+  }
+  .infok{
+  font-family: 'Lobster Two', cursive;
+  font-size:20px;
 }
 .center{
   text-align:center;

@@ -1,6 +1,6 @@
 /* COUNTDOWN settings */
 
-var endDate = "augustus 27, 2016 00:00:00";
+var endDate = "augustus 27, 2016 17:00:00";
 
 $(document).ready(function(){
 

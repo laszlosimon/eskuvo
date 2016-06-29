@@ -5,6 +5,7 @@
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="szamlal.css">
@@ -13,7 +14,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Niki és Laci Esküvői Honlapja</title>
+  <title>Niki & Laci Esküvői honlapja</title>
 </head>
   
   
@@ -28,8 +29,14 @@
     <li><a data-toggle="pill" href="#rolunk">Rólunk</a></li>
     <li><a data-toggle="pill" href="#eskuvo">Esküvő</a></li>
     <li><a data-toggle="pill" href="#szallas">Szállás</a></li>
-    <li><a data-toggle="pill" href="#galeria">Galéria</a></li>
     <li><a data-toggle="pill" href="#kapcsolat">Kapcsolat</a></li>
+	<li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Galéria <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a  data-toggle="pill" href="#eddigi">Pár kép rólunk</a></li>
+            <li><a  data-toggle="pill" href="#eskuvoi">Esküvői képek</a></li>
+        </ul>
+    </li>
   </ul>
   
   
@@ -66,7 +73,7 @@
       
       
     <div id="eskuvo" class="tab-pane fade">
-      <h3>Néhány fontos információ</h3>
+       <h3>A nagy nap</h3>
       <p class="center">A Helyszín</p>
    <div class="row">
       <div  class="col-xs-12 col-lg-6">
@@ -74,11 +81,37 @@
       </div>
      <div></div>
       <div  class="col-xs-12 col-lg-6">
-        <img src="http://www.godor.hu/_data/gal_8bb270140bf88736f94725df70de4deb.jpg" width="550" height="450" >
+        <img src="godor.jpg" width="550" height="450" >
         </div>
      </div>
+	 <div class="row infok">
+   <div  class="col-xs-12 col-lg-6 center">Szertartás</div>
+  <div  class="col-xs-12 col-lg-6 center">Csoportképek</div>
+</div>    
       
-    </div>
+      <div class="row infok ">
+  <div  class="col-xs-12 col-lg-6">A polgári szertartás a Kálvin téri házasságkötő teremben 17 órakor fog kezdődni. Kérünk Titeket kalkuláljátok bele az érkezésetekbe, hogy a belvárosban nem egyszerű feladat parkolóhelyet találni. Pár nappal előtte majd kaptok tőlünk egy listát azokról az utcákról, amit érdemes számításba vennetek. </div>
+  <div  class="col-xs-12 col-lg-6">A ceremónia után néhány csoportkép erejéig megörökítjük, hogy mindannyian eljöttetek, majd közösen átvonulunk a lakodalom helyszínére, amely néhány percre található.
+Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik, hogy elnyerje a mennyasszonyi csokrot. Emellett, a felújított park helyet adhat az egyéni fotók elkészítéséhez is. 
+</div>
+</div> 
+      
+<div class="row infok">
+  <div  class="col-xs-12 col-lg-6 center">Vacsora</div>
+  <div  class="col-xs-12 col-lg-6 center">Tánc</div>
+</div> 
+      
+ <div class="row infok">
+  <div  class="col-xs-12 col-lg-6">A vacsora során házias ízek, bőséges ételek várnak, amit az este folyamán reméljük, mindenki letáncol.  </div>
+  <div  class="col-xs-12 col-lg-6">Éjfélkor menyecsketánccal köszöntjük az új napot, amit már férjként és feleségként kezdünk, majd folytatódik a zene és tánc virradatig. 
+</div>
+</div> 
+      <p></p>
+      <div class="center infok">Érezzétek jól Magatokat!</div>
+      
+</div>
+      
+
       
       
     <div id="szallas" class="tab-pane fade">
@@ -87,12 +120,65 @@
     </div>
       
       
-    <div id="galeria" class="tab-pane fade">
-      <h3>Menu 4</h3>
-      <p>Galeria</p>
+    <div id="eddigi" class="tab-pane fade">
+      <h3>Eddigi élmények</h3>
+      <p>képek</p>
+	  
+	   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="naplemente.jpg" class="img-rounded" width="460px" height="345px">
+      <div class="carousel-caption">
+        <h3>Korfu</h3>
+        <p>Naplemente :)</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="sziv1.jpg" class="img-rounded" width="460" height="345" >
+      <div class="carousel-caption">
+        <h3>zakynthos</h3>
+       
+      </div>
+    </div>
+    <div class="item">
+      <img src="koktel.jpg" class="img-rounded" alt="Flower" width="460" height="345">
+      <div class="carousel-caption">
+        <h3>Korfu</h3>
+        <p>Koktélozás</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="elejen.jpg" class="img-rounded" alt="Flower" width="460" height="345">
+      <div class="carousel-caption">
+        <h3>Lilafüred</h3>
+        <p>Még pár hónaposan</p>
+      </div>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     </div>
       
-      
+ <div id="eskuvoi" class="tab-pane fade">
+      <h3>Eskuvői Képek</h3>
+      <p>itt érhetitek majd el az esküvőn készült fényképeket.</p>
+    </div>     
       
     <div id="kapcsolat" class="tab-pane fade">
       <h3>Elérhetőségeink</h3>
