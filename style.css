@@ -6,10 +6,14 @@ body{
 }
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      height: 460;
-	width: 345;
+        
+		height: 500px;
+        width: 500px;
+        object-fit:cover;
       margin: auto;
   }
+
+ 
   .infok{
   font-family: 'Lobster Two', cursive;
   font-size:20px;
