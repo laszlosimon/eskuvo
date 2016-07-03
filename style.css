@@ -12,7 +12,9 @@ body{
         object-fit:cover;
       margin: auto;
   }
-
+ul { display:table; 
+margin:0 auto;
+}
  
   .infok{
   font-family: 'Lobster Two', cursive;

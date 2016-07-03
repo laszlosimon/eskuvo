@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="szamlal.css">
 <script src="javas.js" type="text/javascript"></script>
-
+<script src="szoveg.js" type="text/javascript"></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -26,7 +26,7 @@
       </div>
   <ul class="nav nav-pills">
     <li class="active"><a data-toggle="pill" href="#home">Kezdőlap</a></li>
-    <li><a data-toggle="pill" href="#rolunk">Rólunk</a></li>
+    
     <li><a data-toggle="pill" href="#eskuvo">Esküvő</a></li>
     <li><a data-toggle="pill" href="#szallas">Szállás</a></li>
     <li><a data-toggle="pill" href="#kapcsolat">Kapcsolat</a></li>
@@ -66,12 +66,8 @@
 <!-- Menük -->  
         
     </div>
-    <div id="rolunk" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>rolunk</p>
-    </div>
-      
-      
+    
+        
     <div id="eskuvo" class="tab-pane fade">
        <h3>A nagy nap</h3>
       <p class="center">A Helyszín</p>
@@ -86,7 +82,7 @@
      </div>
 	
       
-      <div class="row infok ">
+      <div class="row infok hideme ">
   <div  class="col-xs-12 col-lg-6">
   <p class="center">Szertartás</p>A polgári szertartás a Kálvin téri házasságkötő teremben 17 órakor fog kezdődni. Kérünk Titeket kalkuláljátok bele az érkezésetekbe, hogy a belvárosban nem egyszerű feladat parkolóhelyet találni. Pár nappal előtte majd kaptok tőlünk egy listát azokról az utcákról, amit érdemes számításba vennetek. </div>
   <div  class="col-xs-12 col-lg-6">
@@ -98,11 +94,11 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
       
  
       
- <div class="row infok">
+ <div class="row infok hideme">
   <div  class="col-xs-12 col-lg-6"><p class="center">A vacsora</p>
   A vacsora során házias ízek, bőséges ételek várnak, amit az este folyamán reméljük, mindenki letáncol.  </div>
   
-  <div  class="col-xs-12 col-lg-6"><p class="center">Tánc<p>Éjfélkor menyecsketánccal köszöntjük az új napot, amit már férjként és feleségként kezdünk, majd folytatódik a zene és tánc virradatig. 
+  <div  class="col-xs-12 col-lg-6 hideme"><p class="center">Tánc<p>Éjfélkor menyecsketánccal köszöntjük az új napot, amit már férjként és feleségként kezdünk, majd folytatódik a zene és tánc virradatig. 
 </div>
 </div> 
       <p></p>
@@ -114,15 +110,38 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
       
       
     <div id="szallas" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Szallas</p>
+      <h3>Szállás</h3>
+      <p class="center">Pár informáci a szállásról:</p>
+	  <p></p>
+<div>
+<ul>
+<li>A Szállást 14:00-tól tudjátok elfoglalni</li>
+<li>Reggel 10:30 ig kell elhagyni</li>
+<li>Cím:Debrecen, Arany János u. 22, 4025</li>
+</ul>
+</div>
+	   <div class="row infok">
+  <div  class="col-xs-12 col-lg-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.1205378209947!2d21.62308944807044!3d47.52651623866909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470e72bed78aa1%3A0xb6690dc1b1792d1e!2sDebrecen%2C+Arany+J%C3%A1nos+u.+22%2C+4025!5e0!3m2!1shu!2shu!4v1467542248331" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><p class="center"></p>
+   </div>
+   <div  class="col-xs-12 col-lg-6"> <img src="szallas1.jpg"  width="550" height="450" ></div>
+   </div>
+   
+    <div class="row infok">
+  <div  class="col-xs-12 col-lg-6"><img src="szallas3.jpg"  width="550" height="450" >
+   </div>
+   <div  class="col-xs-12 col-lg-6"> <img src="szallas2.jpg"  width="550" height="450" ></div>
+   </div>
+	  
+	  
+	  
+	  
+	  
     </div>
       
       
     <div id="eddigi" class="tab-pane fade">
       <h3>Eddigi élmények</h3>
-      <p>képek</p>
-	  
+   
 	   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -136,28 +155,28 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
     <div class="item active">
       <img src="naplemente.jpg" class="img-rounded">
       <div class="carousel-caption">
-        <h3>Korfu</h3>
+        <h4>Korfu</h4>
         <p>Naplemente :)</p>
       </div>
     </div>
     <div class="item">
       <img src="sziv1.jpg" class="img-rounded"  >
       <div class="carousel-caption">
-        <h3>zakynthos</h3>
+        <h4>zakynthos</h4>
        
       </div>
     </div>
     <div class="item">
       <img src="koktel.jpg" class="img-rounded">
       <div class="carousel-caption">
-        <h3>Korfu</h3>
+        <h4>Korfu</h4>
         <p>Koktélozás</p>
       </div>
     </div>
     <div class="item">
       <img src="elejen.jpg" class="img-rounded">
       <div class="carousel-caption">
-        <h3>Lilafüred</h3>
+        <h4>Lilafüred</h4>
         <p>Még pár hónaposan</p>
       </div>
     </div>
@@ -177,10 +196,12 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
  <div id="eskuvoi" class="tab-pane fade">
       <h3>Eskuvői Képek</h3>
       <p>itt érhetitek majd el az esküvőn készült fényképeket.</p>
+	  
     </div>     
       
     <div id="kapcsolat" class="tab-pane fade">
       <h3>Elérhetőségeink</h3>
+	  <div class="center">
       <p>Bármilyen észrevétel óhaj-sóhaj esetén, várjuk megkeresésed az alábbi elérhetőségek valamelyikén!</p>
 <p>Niki</p>
 <ul>
@@ -192,7 +213,7 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
 <li>Email cím: clava01@gmail.com</li>
 <li>Telefonszám: 0630-45-66-022</li>
 </ul>
-
+</div>
       
     </div>
   </div>
