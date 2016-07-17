@@ -1,7 +1,8 @@
 
 body{
   border-spacing:10px;
-  font-size:16px
+  font-size:16px;
+  background-color:seashell;
 
 }
 .carousel-inner > .item > img,
@@ -19,6 +20,10 @@ margin:0 auto;
   .infok{
   font-family: 'Lobster Two', cursive;
   font-size:20px;
+}
+.h2cim{
+  font-family: 'Lobster Two', cursive;
+  font-size:45px;
 }
 .center{
   text-align:center;
@@ -65,8 +70,8 @@ h2{
 }
 
 .fej{
-  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/girly-backgrounds/rose-and-petals-girly-background-header.jpg)  center no-repeat;
-  height:100px;
+  background: url(http://dev.ashasalonspa.com/wp-content/uploads/2015/06/header-section-special-wedding.jpg)  center no-repeat;
+  height:150px;
 }
 
 
@@ -84,6 +89,10 @@ h2{
 .nav-tabs, .nav-pills {
     text-align:center;
 }
+ .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:black;
+    background-color:khaki;
+    }
 
 #countdown{
 color: #469280;
