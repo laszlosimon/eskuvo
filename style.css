@@ -5,6 +5,9 @@ body{
   background-color:seashell;
 
 }
+.btn {
+	background-color:kheki;
+}
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
         
