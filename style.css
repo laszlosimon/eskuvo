@@ -87,10 +87,14 @@ h2{
   padding:30px;
  
 }
+.img-responsive {
+    margin: 0 auto;
+}
 
 .fej{
   background: url(http://dev.ashasalonspa.com/wp-content/uploads/2015/06/header-section-special-wedding.jpg)  center no-repeat;
   height:150px;
+ 
 }
 
 
