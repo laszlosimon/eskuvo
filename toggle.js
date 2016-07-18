@@ -1,8 +1,14 @@
 $( document ).ready(function() {
-    
-$('.igy').hide();
 
-$('#varos').on('click', function(){
-  $('.igy').slideToggle(200);
+ $('.panel-body').hide();
+
+
+$('.panel-heading').on('click', function(){
+
+  var panelId= $(this).attr('data-panelid');
+  
+
+  $('#'+panelId).slideToggle(200);
 });
-});
+
+}); 

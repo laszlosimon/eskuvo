@@ -5,6 +5,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="szamlal.css">
@@ -57,7 +58,7 @@
       <p class="udvozlet">
 Üdvözlünk az esküvői honlapunkon, amely nektek készült, hogy minden információt könnyedén el tudjatok érni, ami eme különleges napot érinti.</p>
 <p></p>
-<h4 class="center">Ennyi idő van még az esküvőig</h4>
+
         <div id="countdown" class="timer"></div>
 	
         
@@ -111,41 +112,84 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
 
       
       
-    <div id="szallas" class="tab-pane fade">
+   <div id="szallas" class="tab-pane fade">
       <h3>Szállás</h3>
       <p class="center">Pár informáci a szállásról:</p>
 	  <p></p>
-<div>
-<ul>
-<li>A Szállást 14:00-tól tudjátok elfoglalni</li>
-<li>Reggel 10:30 ig kell elhagyni</li>
-<li>Cím:Debrecen, Arany János u. 22, 4025</li>
-<li><button class="btn" id="varos">Hogy jutunk el a Szállástól a városházáig?</button></li>
-</ul>
-</div>
-
-  <div class="row infok">
-  <div  class="igy" class="col-xs-12 col-lg-6"><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5387.894752928815!2d21.620597377316933!3d47.52988751090024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x0%3A0x1e350231308e9f6a!2sOkm%C3%A1nyiroda!3m2!1d47.5332625!2d21.626386999999998!4m5!1s0x47470e72bed78aa1%3A0xb6690dc1b1792d1e!2sDebrecen%2C+Arany+J%C3%A1nos+u.+22%2C+4025!3m2!1d47.5264982!2d21.6236499!5e0!3m2!1shu!2shu!4v1468756535146" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </li>
-
-   </div>
-
-	   <div class="row infok">
-  <div  class="col-xs-12 col-lg-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.1205378209947!2d21.62308944807044!3d47.52651623866909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470e72bed78aa1%3A0xb6690dc1b1792d1e!2sDebrecen%2C+Arany+J%C3%A1nos+u.+22%2C+4025!5e0!3m2!1shu!2shu!4v1467542248331" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><p class="center"></p>
-   </div>
-   <div  class="col-xs-12 col-lg-6"> <img src="szallas1.jpg"  width="550" height="450" ></div>
-   </div>
+	  <ul>
+	  <li>Mind a Városháza, mind az Étterem 5-10 perc séta alatt elérhető a szállástól, ami egy nyugodt belvárosi utcán található. Az épületre nem lesz kiírva semmi, de biztosan megtaláljátok a pontos cím alapján.</li>
+	  <li>Minden apartman jól felszerelt, de a reggeliről magatoknak kell gondoskodnotok. 
+Várunk mindenkit szeretettel!</li>
+	  </ul>
+	 
+ <div class="panel-group">
    
-    <div class="row infok">
-  <div  class="col-xs-12 col-lg-6"><img src="szallas3.jpg"  width="550" height="450" >
-   </div>
-   <div  class="col-xs-12 col-lg-6"> <img src="szallas2.jpg"  width="550" height="450" ></div>
-   </div>
-	  
-	  
-	  
-	  
-	  
+    <div  class="panel panel-primary">
+      <div class="panel-heading" data-panelid="panel1" >Hány órától tudjuk elfoglalni a szállást?</div>
+      <div id="panel1"  class="panel-body">Az apartmanokat hivatalosan 14:00-tól lehet elfoglalni, de ilyen téren rugalmas a tulaj. 
+Velünk kell majd előre egyeztetnetek, hogy mikor érkeztek.</div>
     </div>
+   
+   
+   <div class="panel panel-primary">
+      <div class="panel-heading" data-panelid="panel2" >Reggek meddig kell elhagyni a szállást?</div>
+      <div id="panel2"  class="panel-body">Másnap reggel kb. 11 óráig kell elhagyni a szállást. </div>
+</div>
+  
+  
+  <div class="panel panel-primary">
+      <div class="panel-heading" data-panelid="panel3" >Szállás címe?</div>
+      
+	  
+	  
+	  <div id="panel3"  class="panel-body">
+	   <div  class="col-md-4">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.1205378209947!2d21.62308944807044!3d47.52651623866909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470e72bed78aa1%3A0xb6690dc1b1792d1e!2sDebrecen%2C+Arany+J%C3%A1nos+u.+22%2C+4025!5e0!3m2!1shu!2shu!4v1467542248331" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+	  <div  class="col-md-4"> <img src="szallaskint.jpg" float="right" class="szallaskint" class="img-rounded" ></div>
+	  </div>
+	  
+	  
+	  
+	
+    </div>
+	
+	   <div class="panel panel-primary">
+      <div class="panel-heading" data-panelid="panel4" >Hogy jutunk el a Szállástól a városházáig?</div>
+      <div id="panel4" class="panel-body"><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5387.894752928815!2d21.620597377316933!3d47.52988751090024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x0%3A0x1e350231308e9f6a!2sOkm%C3%A1nyiroda!3m2!1d47.5332625!2d21.626386999999998!4m5!1s0x47470e72bed78aa1%3A0xb6690dc1b1792d1e!2sDebrecen%2C+Arany+J%C3%A1nos+u.+22%2C+4025!3m2!1d47.5264982!2d21.6236499!5e0!3m2!1shu!2shu!4v1468756535146" width="550" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe></div>
+    </div>
+	
+	<div class="panel panel-primary">
+      <div class="panel-heading" data-panelid="panel5" >Képek a szállásról</div>
+      <div id="panel5"  class="panel-body">
+	  
+	  <div class="container">
+	     <div class="row infok">
+   <div  class="col-md-4"> <img src="szallas1.jpg" class="img-rounded" width="275" height="225" ></div>
+
+  <div  class="col-md-4"><img src="szallas3.jpg"  class="img-rounded" width="275" height="225" ></div>
+
+   <div  class="col-md-4"> <img src="szallas2.jpg" class="img-rounded" width="275" height="225" ></div>
+
+   
+   </div>
+	  </div>
+	  </div>
+	  
+	  
+	  </div>
+    </div>
+	
+	</div>
+  
+  
+
+	  
+	  
+	  
+	  
+	  
+    
       
       
     <div id="eddigi" class="tab-pane fade">
@@ -204,7 +248,7 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
       
  <div id="eskuvoi" class="tab-pane fade">
       <h3>Eskuvői Képek</h3>
-      <p>itt érhetitek majd el az esküvőn készült fényképeket.</p>
+      <p class="center"> Itt érhetitek majd el az esküvőn készült profi és amatőr fotókat egyaránt.</p>
 	  
     </div>     
       
@@ -212,12 +256,12 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
       <h3>Elérhetőségeink</h3>
 	  <div class="center">
       <p>Bármilyen észrevétel óhaj-sóhaj esetén, várjuk megkeresésed az alábbi elérhetőségek valamelyikén!</p>
-<p>Niki</p>
+<p><u>Niki</u></p>
 <ul>
 <li>Email cím: nycky93@gmail.com</li>
 <li>Telefonszám: 0620-574-60-44</li>
 </ul>
-      <p>Laci</p>
+      <p><u>Laci</u></p>
 <ul>
 <li>Email cím: clava01@gmail.com</li>
 <li>Telefonszám: 0630-45-66-022</li>
@@ -226,6 +270,7 @@ Az étterem előtti téren egy leleményes hajadon lánynak lehetősége adódik
       
     </div>
   </div>
+</div>
 </div>
 </ul>
 </body>

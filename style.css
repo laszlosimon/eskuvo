@@ -1,13 +1,31 @@
 
 body{
   border-spacing:10px;
-  font-size:16px;
+  font-size:18px;
   background-color:seashell;
+  font-family: 'Playfair Display', serif;
+  
 
 }
-.btn {
+.panel-primary>.panel-heading {
+	
 	background-color:khaki;
+	color:black;
+	
 }
+.panel-body{
+	background-color:lemonchiffon;
+	
+}
+.szallaskint{
+	height: 450px;
+        width: 450px;
+        object-fit:cover;
+}
+
+
+
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
         
